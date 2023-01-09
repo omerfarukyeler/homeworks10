@@ -56,8 +56,18 @@ public class Main {
 			
 		sayac++;
 			
-		}
 		}		
+			else if ( !list1.get(0).equals(list.get(i))) {
+				
+				
+			System.out.println("arac devam edebilir.");
+			break;
+			}
+			
+		
+		}	
+		
+		
 			
 			
 		
