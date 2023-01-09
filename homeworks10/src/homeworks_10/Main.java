@@ -46,18 +46,15 @@ public class Main {
 	
 		//System.out.println(list);
 		//boolean areequal =true;
-		int sayac=0;
+		//int sayac=0;
 		
 		for(int i=0;i<list.size();i++) {
 			
 			if(list1.get(0).equals(list.get(i))) {
 			
-				System.out.println(" girdiginiz arac calintidir " );
-			
-		sayac++;
-			
+				System.out.println("girdiginiz arac calintidir " );
 		}		
-			else if ( !list1.get(0).equals(list.get(i))) {
+			else   {
 				
 				
 			System.out.println("arac devam edebilir.");
